@@ -1,0 +1,44 @@
+* {
+    color: #fff;
+    font-weight: bold;
+
+    box-sizing: border-box;
+}
+
+div.caixa1{
+    background-color: red;
+
+    /* Borda solida */
+    border: 2px solid #000;
+}
+
+div.caixa2{
+    background-color: aqua;
+
+    /* Borda pontilhada */
+    border: 2px dotted #000;
+}
+
+div.caixa3{
+    background-color: chartreuse;
+
+    /*Aplicando borda somente de um lado*/
+    border-left: 2px solid #000;
+}
+
+div {
+    display: inline-block;
+
+    /* Largura */
+    width: 200px;
+
+    /* Altura */
+    height: 200px;
+
+    /* Aplicando margem com tamanhos diferentes para cada lado */
+    margin: 10px 20px 30px 10px;
+
+    /* Espaçamento interno */
+    padding: 20px;
+
+}
