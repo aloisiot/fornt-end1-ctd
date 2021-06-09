@@ -24,3 +24,8 @@ h1 {
     text-transform: uppercase; 
     text-align: center;
 }
+
+.icons {
+    height: 40px;
+    width: 40px;
+}
