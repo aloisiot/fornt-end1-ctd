@@ -1,0 +1,26 @@
+html{
+    padding: 50px;
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(to top, rgb(148, 0, 91, 0.6), rgb(15, 0, 148, 0.6));
+    background-repeat:no-repeat ;
+    color: #fff;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.p-inline {
+    display: inline-block;
+    width: 45%;
+}
+
+.icons {
+    height: 40px;
+    width: 40px;
+}
+
+img {
+    display: inline-block;
+    width: 45%;
+}
