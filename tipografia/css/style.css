@@ -1,3 +1,26 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+    /* Tamanho e peso da fonte */
+    font-size: 18px;
+    font-weight: bold;
+
+    /* O atributo abaixo com valor 'justify' tenta distribuir o texto de maneira uniforme. */
+    text-align: justify;
+
+    line-height: 30px;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+
+}
+
+h1 {
+    /* Transforma todos os caracteres em maiusculo */
+    text-transform: uppercase; 
+    text-align: center;
+}
