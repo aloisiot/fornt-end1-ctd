@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:110%;
+}
+
+h1{
+    color: dimgray;
+    border-bottom: 2px solid;
+}
+
+p{
+    font-weight: bold;
+}
+
+img {
+    height: 300px;
+    background-color: #fff;
+}
+
+.sobreposicao {
+    position: relative;
+    margin: -50px;
+    top: 100px;
+}
+
+#carta1{
+    z-index: 1;
+}
+
+#carta2{
+    z-index: 2;
+}
+
+#carta3{
+    z-index: 3;
+}
+
+#carta1:hover{
+    cursor: pointer;
+    z-index: 5;
+}
+
+#carta2:hover{
+    cursor: pointer;
+    z-index: 5;
+}
+
+#carta3:hover{
+    cursor: pointer;
+    z-index: 5;
+}
+
+#mao {
+    height: 200px;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    z-index: 10;
+}
