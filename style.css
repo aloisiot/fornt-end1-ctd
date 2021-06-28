@@ -1,0 +1,64 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    width: 100vw;
+    background-image: url(./img/pic-html-on-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #DDD;
+}
+
+main{
+    background-color: rgba(221, 221, 221, 0.7);
+    border-radius: 12px;
+    padding: 42px;
+}
+
+h1{
+    margin: 0 0 18px 0;
+    color: #202020;
+    font-size: 3rem;
+    text-shadow: 3px 3px 3px #757575;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    box-shadow: 0 0 9px #303030;
+    background-color: #303030;
+    text-align: center;
+    border-radius: 6px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    list-style-type: none;
+    font-weight: 600;
+}
+
+li{
+    padding: 10px 0;
+}
+
+li:nth-child(odd){
+background-color: #ddd;
+color: #303030;
+
+}
