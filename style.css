@@ -24,7 +24,11 @@ h1{
     margin: 0 0 18px 0;
     color: #202020;
     font-size: 3rem;
-    text-shadow: 3px 3px 3px #757575;
+    text-shadow: 3px 6px 3px #757575;
+}
+
+h2{
+    display: inline-block;
 }
 
 a{
@@ -36,8 +40,12 @@ a:hover{
     text-decoration: underline;
 }
 
+img.icon{
+    height: 1.1em;
+}
+
 .container{
-    box-shadow: 0 0 9px #303030;
+    box-shadow: 6px 6px 6px #606060;
     background-color: #303030;
     text-align: center;
     border-radius: 6px;
@@ -46,6 +54,7 @@ a:hover{
 }
 
 ul{
+    background-color: #454545;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -54,11 +63,10 @@ ul{
 }
 
 li{
-    padding: 10px 0;
+    padding: 9px 0;
 }
 
 li:nth-child(odd){
 background-color: #ddd;
 color: #303030;
-
 }
