@@ -1,0 +1,10 @@
+main{
+    animation-duration: 1s;
+    animation-name: drop-down;
+}
+
+@keyframes drop-down {
+    from{
+        margin-top: -200%;
+    }
+}
