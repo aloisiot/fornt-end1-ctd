@@ -1,0 +1,21 @@
+form > h1:hover{
+    color: #fff;
+}
+
+.hvr-bk{
+    transition: all 0.3s ease-in-out;
+}
+
+.btn{
+    transition: all 0.3s ease-in-out;
+}
+
+.hvr-bk:hover{
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: purple;
+}

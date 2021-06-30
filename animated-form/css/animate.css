@@ -1,0 +1,10 @@
+.slide-form{
+    animation-duration: 1s;
+    animation-name: slide-in;
+}
+
+@keyframes slide-in {
+    from{
+        margin-top: -200%;
+    }
+}
