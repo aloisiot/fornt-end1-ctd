@@ -10,16 +10,17 @@
 }
 
 /* Animação para a espação do formulário
-    sua escala se mantem 0 até os 40% do tempo da animação
-    após isso o objeto se espande para uma escala de 1.2x e retorna para sua escala original */
+    sua escala se mantem 0 até os 50% do tempo da animação
+    após isso o objeto se espande para uma escala de 1.2x e,
+    por fim, retorna para sua escala original */
 @keyframes expansion {
     0%{
         transform: scale(0,0);
     }
-    40%{
+    50%{
         transform: scale(0,0);
     }
-    80% {
+    75% {
         transform: scale(1.2,1.2);
     }
     100% {

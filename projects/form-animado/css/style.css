@@ -38,7 +38,7 @@ form{
     border-radius: 6px;
     z-index: 10;
     box-shadow: 0 0 9px #000;
-    animation: expansion 1s ease-out;
+    animation: expansion 2s ease-out;
 }
 
 form h1 {
