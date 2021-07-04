@@ -1,0 +1,28 @@
+/* Animação para o movimento horizontal das ondas */
+@keyframes moveWave{
+    form{
+        transform: translateX(-165px);
+    }
+    to
+    {
+        transform: translateX(165px);        
+    }
+}
+
+/* Animação para a espação do formulário
+    sua escala se mantem 0 até os 40% do tempo da animação
+    após isso o objeto se espande para uma escala de 1.2x e retorna para sua escala original */
+@keyframes expansion {
+    0%{
+        transform: scale(0,0);
+    }
+    40%{
+        transform: scale(0,0);
+    }
+    80% {
+        transform: scale(1.2,1.2);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
