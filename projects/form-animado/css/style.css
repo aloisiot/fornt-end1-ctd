@@ -66,9 +66,9 @@ input[type="submit"],
 input[type="reset"]{
     background-color: #002e4d;
     outline: none;
-    height: 32px;
+    height: 36px;
     border: none;
-    border-radius: 16px;
+    border-radius: 18px;
     margin-bottom: 18px;
     text-align: center;
     /* O valor inherit para a propriedade color faz com que ele
