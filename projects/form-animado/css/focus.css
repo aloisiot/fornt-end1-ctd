@@ -1,4 +1,5 @@
-/* Sombra interna para os inputs quando em foco */
+/* Sombra interna para os inputs quando em foco
+dando uma impressão de profundidade */
 input[type='text']:focus,
 input[type='email']:focus,
 input[type='password']:focus
