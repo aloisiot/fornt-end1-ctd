@@ -17,7 +17,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #001f33;
+    background-color: #ccebff;
     background-image: url(../img/lua.png);
     /* Posicionando a imagem da lua a 40px do topo, 40px da direita */
     background-position: top 40px right 40px;
