@@ -26,9 +26,9 @@ body{
 }
 
 form{
-    width: 300px;
+    width: 360px;
     background-color: #003d66;
-    padding: 9px 32px;
+    padding: 12px 39px;
 
     /* As propriedades flex-box são exelentes para posicionamento */
     display: flex;
