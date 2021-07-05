@@ -44,8 +44,8 @@ form{
 }
 
 form h1 {
-    /* Fonte importada */
     color: #FFF;
+    /* Fonte importada */
     font-family: 'Ubuntu';
     display: inline-flex;
     align-items: center;
