@@ -12,6 +12,5 @@ input[type="reset"]:hover
 input[type="submit"]:hover,
 input[type="reset"]:hover{
     background-color: #006bb3;
-    color: #b3e0ff;
     cursor: pointer;
 }
