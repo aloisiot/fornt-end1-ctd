@@ -19,10 +19,15 @@ body{
     justify-content: center;
     background-color: #ccebff;
     background-image: url(../img/lua.png);
+
     /* Posicionando a imagem da lua a 40px do topo, 40px da direita */
     background-position: top 40px right 40px;
+
+    /* A propriedade abaixo faz com que o background não se repita */
     background-repeat: no-repeat;
-    /* Definindo tamanho para a imagem da lua */
+
+    /* Definindo tamanho para a imagem da lua
+        o REM é ima medida relativa ao tamanho padão para fontes em cada navegador*/
     background-size: 16rem;
     overflow: hidden;
 }
@@ -38,6 +43,7 @@ form{
     
     color: #dadada;
     border-radius: 6px;
+    /* z-index para garantir que o form fique a frente de todos os elementos */
     z-index: 10;
     box-shadow: 0 0 9px #000;
     animation: expansion 2s ease-out;
@@ -83,7 +89,7 @@ input[type="reset"]{
     width: 48%;
     font-size: 16px;
     font-weight: bold;
-    color: #dadada;
+    color: inherit;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
     transition: background-color 1s ;
 }
@@ -93,6 +99,10 @@ input[type="reset"]{
     position: absolute;
     bottom: 0;
     width: 130vw;
+
+    /* A propriedade overflow com o valor hidden faz com que
+       as partes dos elementos contidos que ultrapassem as
+       bordas deste elemento sejam escondidas */
     overflow: hidden;
 }
 
