@@ -29,7 +29,7 @@ body{
 
 form{
     width: 360px;
-    background-color: #003d66;
+    background-color: #002e4d;
     padding: 12px 39px;
 
     /* As propriedades flex-box são exelentes para posicionamento */
@@ -64,7 +64,7 @@ input[type='email'],
 input[type='password'],
 input[type="submit"],
 input[type="reset"]{
-    background-color: #002e4d;
+    background-color: #004d80;
     outline: none;
     height: 36px;
     border: none;
@@ -112,6 +112,6 @@ input[type="reset"]{
 
 /* Estilização para placeholder. Deixando-o mais discreto
    OBS: são aplicados 3 estilos iguais por questões de compatibilidade com diferente browsers*/
-::-webkit-input-placeholder{color:#004d80; }
+::-webkit-input-placeholder{color:#002e4d; }
 input:-moz-placeholder { color:#004d80; }
 textarea:-moz-placeholder { color:#004d80; }
